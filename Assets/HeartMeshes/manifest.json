@@ -1,0 +1,372 @@
+{
+  "origin": [
+    16.08119596404236,
+    -122.78983013011774,
+    1235.6745757444312
+  ],
+  "units": "mm",
+  "axes": {
+    "x": "left",
+    "y": "posterior",
+    "z": "superior"
+  },
+  "structures": [
+    {
+      "id": "FMA7274",
+      "name": "Wall of Heart",
+      "layer": "myocardium",
+      "vertexCount": 71802,
+      "triangleCount": 145904,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -52.41049589080018,
+          -53.83916767261664,
+          -51.324600158493695
+        ],
+        "max": [
+          63.09890352326232,
+          55.69202892162164,
+          53.995468200881305
+        ]
+      }
+    },
+    {
+      "id": "FMA7235",
+      "name": "Mitral Valve",
+      "layer": "valves",
+      "vertexCount": 6996,
+      "triangleCount": 14102,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -2.5517960922161897,
+          -0.48117359302679574,
+          -25.914565978806195
+        ],
+        "max": [
+          46.7888029678424,
+          37.426426809805236,
+          6.185409607131305
+        ]
+      }
+    },
+    {
+      "id": "FMA7234",
+      "name": "Tricuspid Valve",
+      "layer": "valves",
+      "vertexCount": 4570,
+      "triangleCount": 10366,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -35.03899587554139,
+          -22.460169869882264,
+          -36.844619689743695
+        ],
+        "max": [
+          13.22370325165588,
+          9.242833059805236,
+          10.995468200881305
+        ]
+      }
+    },
+    {
+      "id": "FMA7246",
+      "name": "Pulmonary Valve",
+      "layer": "valves",
+      "vertexCount": 8687,
+      "triangleCount": 17390,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -7.341145648185428,
+          -36.84617145679633,
+          19.305404724318805
+        ],
+        "max": [
+          24.91020570832092,
+          -4.754168588143983,
+          39.775375427443805
+        ]
+      }
+    },
+    {
+      "id": "FMA3736",
+      "name": "Ascending Aorta",
+      "layer": "greatVessels",
+      "vertexCount": 1076,
+      "triangleCount": 2148,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -24.21806634825867,
+          -16.657176095468202,
+          16.165390075881305
+        ],
+        "max": [
+          10.479204045112912,
+          17.424832266348204,
+          67.3154144899438
+        ]
+      }
+    },
+    {
+      "id": "FMA3768",
+      "name": "Aortic Arch",
+      "layer": "greatVessels",
+      "vertexCount": 1639,
+      "triangleCount": 3274,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -24.09715570372742,
+          -14.88616474292914,
+          66.2554779665063
+        ],
+        "max": [
+          15.512504444893185,
+          68.48463146068414,
+          103.7554779665063
+        ]
+      }
+    },
+    {
+      "id": "FMA3784",
+      "name": "Descending Aorta",
+      "layer": "greatVessels",
+      "vertexCount": 5957,
+      "triangleCount": 11864,
+      "watertight": false,
+      "openEdges": 54,
+      "bounds": {
+        "min": [
+          -15.844710959617313,
+          3.2648286042388293,
+          -159.9145659788062
+        ],
+        "max": [
+          13.852603779609982,
+          74.71273128368219,
+          67.6054535524438
+        ]
+      }
+    },
+    {
+      "id": "FMA4720",
+      "name": "Superior Vena Cava",
+      "layer": "greatVessels",
+      "vertexCount": 768,
+      "triangleCount": 1532,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -42.81249631804627,
+          -4.5291701140228895,
+          49.395370544631305
+        ],
+        "max": [
+          -20.144486083213504,
+          19.26782695628961,
+          84.5253754274438
+        ]
+      }
+    },
+    {
+      "id": "FMA10951",
+      "name": "Inferior Vena Cava",
+      "layer": "greatVessels",
+      "vertexCount": 1511,
+      "triangleCount": 2969,
+      "watertight": false,
+      "openEdges": 51,
+      "bounds": {
+        "min": [
+          -42.92649663848084,
+          -4.465167123300233,
+          -159.9646148069312
+        ],
+        "max": [
+          -19.622166051093753,
+          19.32483379222711,
+          -34.804580627243695
+        ]
+      }
+    },
+    {
+      "id": "FMA66326",
+      "name": "Pulmonary Artery",
+      "layer": "greatVessels",
+      "vertexCount": 11101,
+      "triangleCount": 22120,
+      "watertight": false,
+      "openEdges": 629,
+      "bounds": {
+        "min": [
+          -69.98379529875916,
+          -61.10117633960883,
+          -39.754531799118695
+        ],
+        "max": [
+          69.97090517121154,
+          57.99853221752008,
+          119.8854828493188
+        ]
+      }
+    },
+    {
+      "id": "FMA66643",
+      "name": "Pulmonary Veins",
+      "layer": "greatVessels",
+      "vertexCount": 8202,
+      "triangleCount": 16539,
+      "watertight": false,
+      "openEdges": 518,
+      "bounds": {
+        "min": [
+          -69.96839536589783,
+          -48.07517536304633,
+          -83.0946196897437
+        ],
+        "max": [
+          69.98110567169982,
+          57.979031485098204,
+          119.9253998415063
+        ]
+      }
+    },
+    {
+      "id": "FMA4706",
+      "name": "Coronary Sinus",
+      "layer": "greatVessels",
+      "vertexCount": 952,
+      "triangleCount": 1900,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -21.65093578261536,
+          7.126828115957579,
+          -28.274551330368695
+        ],
+        "max": [
+          27.188102589424435,
+          41.79282848216852,
+          -8.914565978806195
+        ]
+      }
+    },
+    {
+      "id": "FMA7260",
+      "name": "RV Anterior Papillary",
+      "layer": "chambers",
+      "vertexCount": 1853,
+      "triangleCount": 3702,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -4.075995577994998,
+          -49.92017658374945,
+          -45.794570861618695
+        ],
+        "max": [
+          31.211505757149045,
+          -28.341166573983827,
+          -16.444595275681195
+        ]
+      }
+    },
+    {
+      "id": "FMA7261",
+      "name": "RV Posterior Papillary",
+      "layer": "chambers",
+      "vertexCount": 1315,
+      "triangleCount": 2626,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -8.95411600035828,
+          -37.72716816089789,
+          -47.164565978806195
+        ],
+        "max": [
+          20.69540391999084,
+          -9.031169015390077,
+          -32.624526916306195
+        ]
+      }
+    },
+    {
+      "id": "FMA7262",
+      "name": "RV Septal Papillary",
+      "layer": "chambers",
+      "vertexCount": 929,
+      "triangleCount": 1854,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          -3.2081958190838655,
+          -20.87017353199164,
+          -12.194595275681195
+        ],
+        "max": [
+          16.283202992256467,
+          -5.4051771941010145,
+          14.815414489943805
+        ]
+      }
+    },
+    {
+      "id": "FMA7266",
+      "name": "LV Posterior Papillary",
+      "layer": "chambers",
+      "vertexCount": 1917,
+      "triangleCount": 3832,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          30.345905171211545,
+          -24.217173654061952,
+          -37.244522033493695
+        ],
+        "max": [
+          58.87440095978576,
+          18.136830252188048,
+          -7.164565978806195
+        ]
+      }
+    },
+    {
+      "id": "FMA9352nsn",
+      "name": "LV Papillary Muscle",
+      "layer": "chambers",
+      "vertexCount": 1996,
+      "triangleCount": 3984,
+      "watertight": true,
+      "openEdges": 0,
+      "bounds": {
+        "min": [
+          15.4038046463092,
+          -37.29416950367133,
+          -33.834609924118695
+        ],
+        "max": [
+          40.569003926094354,
+          -1.6971693816010145,
+          -0.7445220334936948
+        ]
+      }
+    }
+  ]
+}
