@@ -114,6 +114,10 @@ Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3
 database for anatomical concepts. *Nucleic Acids Res.* 2009;37(Database issue):D782-D785.
 [doi:10.1093/nar/gkn613](https://doi.org/10.1093/nar/gkn613)
 
+## Privacy policy for the MeTEE app
+
+The privacy policy for the MeTEE app is in [PRIVACY.md](PRIVACY.md).
+
 ## Disclaimer
 
 MeTEE uses these models to draw a simulated ultrasound cross-section and a 3D view. They come
