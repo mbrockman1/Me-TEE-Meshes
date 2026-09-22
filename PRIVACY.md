@@ -2,9 +2,10 @@
 
 Effective 21 September 2026. Applies to MeTEE version 0.20260921 and later.
 
-**In short:** MeTEE does not collect, share or sell any personal information. It has no
-accounts, no analytics, no advertising and no third-party SDKs, and it makes no network
-connections of its own. Everything the app remembers stays on your device.
+**In short:** MeTEE does not collect personal information, has no accounts and shows no ads.
+It uses one third-party service — Firebase Analytics — for anonymous, non-personalized usage
+analytics, which you can turn off at any time in Settings. Everything else the app remembers
+stays on your device.
 
 ## What the app uses on your device
 
@@ -20,11 +21,31 @@ connections of its own. Everything the app remembers stays on your device.
 - **Clearing it.** "Reset progress" in the ••• menu clears your quiz progress, and deleting
   the app removes everything the app stored on your device.
 
+## Analytics
+
+MeTEE uses Firebase Analytics, a Google service, to see in aggregate which screens and
+features are used, so development effort goes where it's actually needed. This is:
+
+- **Anonymous and not personalized.** The identifier involved is a random, per-install ID
+  generated on your device, not tied to your name, email or any account, because MeTEE has
+  none.
+- **Not an advertising ID.** MeTEE links Firebase's "WithoutAdIdSupport" build, which excludes
+  Apple's advertising-identifier framework from the app entirely. IDFA is not just unused, it
+  is unreachable from this app's code.
+- **Not tracking, as Apple defines it.** This data is never linked with data from other
+  companies to target ads, never used to track you across other apps or websites, and never
+  sold or shared with data brokers.
+- **Optional.** Turn "Share anonymous usage analytics" off in Settings at any time, and MeTEE
+  stops sending it.
+
+Firebase Analytics data is processed by Google under Google's own privacy policy:
+https://policies.google.com/privacy
+
 ## What we do not collect
 
-We do not collect your name, email address, contacts, location, photos, health data, device
-identifiers, advertising identifiers, or usage analytics, and the app sends us no crash
-reports of its own. There is no account to create.
+We do not collect your name, email address, contacts, location, photos, health data, or
+advertising identifiers, and the app sends us no crash reports of its own. There is no account
+to create.
 
 ## Links that leave the app
 
@@ -61,6 +82,9 @@ remain available in this repository's history.
 
 ## Contact
 
-Questions about this policy: open an issue at
+Michael Brockman
+mbrockman1@gmail.com
+
+Questions about this policy may also be raised as an issue at
 https://github.com/mbrockman1/Me-TEE-Meshes/issues. Please do not include personal or health
 information in a public issue.
