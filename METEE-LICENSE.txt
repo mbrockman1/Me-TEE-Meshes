@@ -1,0 +1,58 @@
+MeTEE — Licence
+
+Copyright (c) 2026 Michael Brockman. All rights reserved.
+
+1. What this licence covers
+
+The MeTEE application and everything original to it in this repository — source code,
+user interface, text, design and artwork (together, the "Software") — is proprietary. No
+licence to use, copy, modify, merge, publish, distribute, sublicense, sell, or make
+derivative works of the Software is granted, except:
+
+  (a) End users of the compiled MeTEE app are licensed to use it on the terms of
+      EULA.md.
+  (b) The materials listed in section 2 are licensed as stated there, and not under this
+      section.
+
+Access to this repository, including access given to collaborators, grants no licence
+beyond viewing the Software for the purpose for which access was given.
+
+2. Separately licensed materials
+
+The following are NOT covered by section 1. They remain under their own licences, and
+nothing in this file or in EULA.md restricts any right you have under those licences.
+
+  3D anatomy (Assets/HeartMeshes/)
+    Adapted from BodyParts3D and licensed under Creative Commons Attribution-Share Alike
+    2.1 Japan (CC BY-SA 2.1 Japan).
+
+      BodyParts3D, (c) The Database Center for Life Science licensed under CC
+      Attribution-Share Alike 2.1 Japan
+
+    The changes made are listed in the README at
+    https://github.com/mbrockman1/Me-TEE-Meshes, where the modified data is freely
+    available to download under the same licence.
+    Licence: https://creativecommons.org/licenses/by-sa/2.1/jp/
+
+  Mesh build scripts (scripts/build_meshes.py, scripts/fetch_meshes.sh)
+    Available under the MIT licence, as published with the meshes at
+    https://github.com/mbrockman1/Me-TEE-Meshes.
+
+  Apple frameworks and SF Symbols
+    Used under Apple's developer agreements and licences. They are not licensed by this
+    file.
+
+3. Names and marks
+
+No licence is granted to use the name "MeTEE", its icon, or any associated logo, except to
+identify the app.
+
+4. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. TO THE
+FULLEST EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER IS NOT LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR ITS USE.
+
+5. Contact
+
+Licensing enquiries: mbrockman1@gmail.com
